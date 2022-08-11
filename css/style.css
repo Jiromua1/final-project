@@ -74,6 +74,12 @@ h3 {
     font-variant:small-caps;
   }
 
+  /*Icons on Contact page*/
+  i {
+    color: white;
+    align-items: center;
+  }
+
   /*Footer*/
   footer {
     background-color: rgb(59, 80, 59);
