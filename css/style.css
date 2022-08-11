@@ -1,6 +1,112 @@
-/*Styling the header */
+/* Header */
+header {
+    background-color: white;  
+  }
 
-/*Styling the navigation bar*/
-nav{
+  h1 {
+    color: white;
+    background-color: rgb (59, 80, 59);
+    font-family:Aboreto, sans-serif;
+    letter-spacing: 15px;
+    padding-left: 40px;
+    padding-top: 5px;
+    display:flex ;
+    justify-content: left;
+    position:absolute;
+    width: 100%;
+    align-items: center;
+    }
     
+h2 {
+    color: rgb(59, 80, 59);
+    font-family:Aboreto, sans-serif;
+    font-weight: bolder;
+    letter-spacing: 15px;
+    padding-left: 40px;
+    justify-content: right;
 }
+
+h3 {
+    color: rgb(59, 80, 59);
+    font-family:Aboreto, sans-serif;
+    letter-spacing: 5px;
+    padding-left: 40px;
+    justify-content: right;
+}
+ 
+  /* Nav bar */
+  nav { 
+    background-color: rgb(59, 80, 59);
+    color: white;
+    font-family: Aboreto, sans-serif;
+    line-height: 25px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    overflow: hidden;
+    top: 5px;
+    list-style-type: none;
+  }
+
+  li {
+    list-style-type: none;
+    margin: 0;
+    padding: 3px;
+    overflow: hidden;
+    float: right;
+  }
+  
+  /* Section */
+  section {
+    background-image: url("/Week 5/final-project/image/Mountainside2.JPG");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    /*background-color: rgb(0, 191, 255);*/
+  }
+  
+  /* Article*/
+  article {
+    color: rgb(59, 80, 59);
+    font-family: Aboreto, sans-serif;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-variant:small-caps;
+  }
+
+  /*Footer*/
+  footer {
+    background-color: rgb(59, 80, 59);
+    color: white;
+    position: bottom;
+    text-align: center;
+  }
+  
+    /*Unvisited link white*/
+    li :link {color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+    /* Underline link color  #808080 (gray) on hover */
+    li :hover {
+        color: #808080;
+        text-decoration: underline;
+      }
+    
+    /* Change the link color to yellow after clicked  */
+     li :active {
+        color: yellow;
+        text-decoration: underline;
+      }
+     
+      /*Change the link color white to visited link*/ 
+      li :visited {
+        color: white;
+        text-decoration: none;
+      }
+
+        /* deleting GAPS BETWEEN SECTIONS*/
+      h1 { 
+        margin: 0px;
+      }
